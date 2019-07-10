@@ -1,7 +1,7 @@
 require 'rack'
 require 'controller_base'
 
-describe ControllerBase do
+describe ControllerBase do 
   before(:all) do
     class CatsController < ControllerBase
       def index
